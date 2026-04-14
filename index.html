@@ -22,7 +22,7 @@
       --radius:         4px;
 
       /* per-category accent colours */
-      --c-azure-sql:            #0078D4;
+      --c-azure-databases:      #0078D4;
       --c-fabric:               #00B0F0;
       --c-foundry:              #7FBA00;
       --c-github-copilot:       #24292E;
@@ -227,8 +227,8 @@
     }
 
     /* ─── Accent colours applied per category ───────────────── */
-    [data-category="azure-sql"]            .card-header { border-top: 3px solid var(--c-azure-sql); }
-    [data-category="azure-sql"]            .card-icon   { background: var(--c-azure-sql); }
+    [data-category="azure-databases"]      .card-header { border-top: 3px solid var(--c-azure-databases); }
+    [data-category="azure-databases"]      .card-icon   { background: var(--c-azure-databases); }
 
     [data-category="fabric"]               .card-header { border-top: 3px solid var(--c-fabric); }
     [data-category="fabric"]               .card-icon   { background: var(--c-fabric); }
@@ -339,7 +339,7 @@
   <script>
     // ── Icon SVG paths keyed by category folder name ───────────
     const ICONS = {
-      "azure-sql": `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      "azure-databases": `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="12" cy="5" rx="9" ry="3"/>
         <path d="M3 5v4c0 1.657 4.03 3 9 3s9-1.343 9-3V5"/>
         <path d="M3 9v5c0 1.657 4.03 3 9 3s9-1.343 9-3V9"/>

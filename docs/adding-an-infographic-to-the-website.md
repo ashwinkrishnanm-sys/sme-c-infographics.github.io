@@ -8,7 +8,7 @@ Go to the repository on GitHub and open the folder that matches your infographic
 
 | Folder | Category |
 |---|---|
-| `azure-sql/` | Azure SQL |
+| `azure-databases/` | Azure Databases |
 | `fabric/` | Fabric |
 | `foundry/` | Foundry |
 | `github-copilot/` | GitHub Copilot |

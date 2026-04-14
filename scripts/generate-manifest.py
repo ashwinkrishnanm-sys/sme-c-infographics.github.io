@@ -11,7 +11,7 @@ import re
 
 # Category folder name → display name mapping (order preserved in output)
 CATEGORIES = {
-    "azure-sql": "Azure SQL",
+    "azure-databases": "Azure Databases",
     "fabric": "Fabric",
     "foundry": "Foundry",
     "github-copilot": "GitHub Copilot",

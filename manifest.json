@@ -1,6 +1,6 @@
 {
-  "azure-sql": {
-    "displayName": "Azure SQL",
+  "azure-databases": {
+    "displayName": "Azure Databases",
     "items": [
       {
         "file": "sql-2016-eol-customer-guide.html",
