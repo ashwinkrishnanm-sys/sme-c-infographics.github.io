@@ -53,5 +53,14 @@
   "defender-for-cloud": {
     "displayName": "Defender for Cloud",
     "items": []
+  },
+  "infrastructure": {
+    "displayName": "Infrastructure",
+    "items": [
+      {
+        "file": "azure-arc.html",
+        "title": "Azure Arc: The Multi-Cloud Command Center"
+      }
+    ]
   }
 }
