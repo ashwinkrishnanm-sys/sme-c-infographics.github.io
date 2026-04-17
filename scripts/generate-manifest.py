@@ -11,7 +11,7 @@ import re
 
 # Category folder name → display name mapping (order preserved in output)
 CATEGORIES = {
-    "azure-sql": "Azure SQL",
+    "azure-databases": "Azure Databases",
     "fabric": "Fabric",
     "foundry": "Foundry",
     "github-copilot": "GitHub Copilot",
@@ -19,6 +19,7 @@ CATEGORIES = {
     "app-platform-services": "App Platform Services",
     "azure-openai": "Azure OpenAI",
     "defender-for-cloud": "Defender for Cloud",
+    "infrastructure": "Infrastructure"
 }
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
